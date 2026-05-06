@@ -1,6 +1,6 @@
 [project]
 name = "git-tools"
-version = "0.1.0"
+version = "1.0.0"
 description = "Small helpers for checking clean git repositories."
 readme = "README.md"
 requires-python = ">=3.8"
