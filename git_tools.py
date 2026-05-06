@@ -55,7 +55,7 @@ def ensure_clean_git(
         )
 
 
-def get_git_commit_hash_(repo_path: Union[str, Path] = ".") -> str:
+def get_git_commit_hash(repo_path: Union[str, Path] = ".") -> str:
     """Return the full SHA-1 hash of the current commit (HEAD).
 
     Args:
@@ -112,7 +112,7 @@ def get_git_hash_safe(
             repo has uncommitted changes, or HEAD cannot be resolved.
     """
     ensure_clean_git(repo_path, ignore_untracked=ignore_untracked)
-    return get_git_commit_hash_(repo_path)
+    return get_git_commit_hash(repo_path)
 
 
 if __name__ == "__main__":
