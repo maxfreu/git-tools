@@ -7,5 +7,5 @@ This tool check git. If dirt found, tool shout. If clean, tool happy.
 Use uv. Tool install:
 
 ```sh
-uv add git+YOUR_REPO_URL
+uv add git+https://github.com/maxfreu/git-tools
 ```
